@@ -1,0 +1,36 @@
+body {
+
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+#map {
+    height: 450px;
+    margin: auto;
+    width: 90%;
+    box-shadow: -11px -5px 41px #003664;
+    border-radius: 5px;
+}
+
+#heading {
+    color: azure;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+
+}
+#footer{
+    text-align: center
+    ;
+    backdrop-filter: blur(2px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.696);
+}
+
+
+hr{
+    height: 5px;
+    color: aliceblue;
+}
+.footer-div{
+    list-style: none;
+}

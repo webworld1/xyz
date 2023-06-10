@@ -117,7 +117,6 @@ function initMap() {
                 });
 
                 google.maps.event.addListener(marker, 'click', showLogin);
-                // location.addEventListener('click', )
             })
 
 

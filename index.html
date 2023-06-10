@@ -21,29 +21,49 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg  border-bottom-dark navbar-dark bg-dark" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg border-bottom-dark navbar-dark bg-dark"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand fw-bold ms-4" href="#">IOC</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">International Operations Center</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >International Operations Center</a
+              >
             </li>
-           <button class="btn ms-3 mt-2 btn-primary">Login</button>
-           <button class="btn ms-3 mt-2 btn-primary">Register</button>
+            <button class="btn ms-3 mt-2 btn-primary">Login</button>
+            <button class="btn ms-3 mt-2 btn-primary">Register</button>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
           </form>
         </div>
       </div>
     </nav>
 
-    <div class="main">
+    <div class="main img-fluid pb-3">
       <div class="container">
         <li id="heading" class="list-group-item heading">
           Our Operation Centers Around The World
@@ -112,15 +132,21 @@
         </div>
       </div>
     </div>
-    <hr>
-    <footer id="footer" class="mt-4">
+
+    <!-- map container end -->
+    <!-- orbit container start -->
+
+
+    
+
+    <footer id="footer" class="mt-4 bg-dark">
       <ul id="footer-item " class="footer-div">
-        <label class="fw-bold  text-light" for="">Site-Map</label>
-        <li class=" fw-normal text-light">Home</li>
-        <li class=" fw-normal text-light">Data Centers</li>
-        <li class=" fw-normal text-light">Virtual Servers</li>
-        <li class=" fw-normal text-light">Login</li>
-        <li class=" fw-normal text-light">Register</li>
+        <label class="fw-bold text-light" for="">Site-Map</label>
+        <li class="fw-normal text-light">Data Centers</li>
+        <li class="fw-normal text-light">Home</li>
+        <a href="server.html"><li class="fw-normal text-light">Virtual Servers</li></a>
+        <li class="fw-normal text-light">Login</li>
+        <li class="fw-normal text-light">Register</li>
       </ul>
     </footer>
     <script src="script.js"></script>
